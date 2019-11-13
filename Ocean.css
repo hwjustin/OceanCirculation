@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+
+}
+header {
+  background-image:url('img/Ocean1.jpeg');
+  background-size:cover;
+  text-align: center;
+  font-size:100%;
+  padding: 275px;
+}
+a:link{color:white; text-decoration:none;} /*未访问链接*/
+a:visited{color:white; text-decoration:none;} /*已访问过的链接*/
+a:hover{color:#C9CBCC;text-decoration:none;}/*当用户把鼠标放在链接上时*/
+a:active{color:white; text-decoration:none;}/*链接被点击的那一刻*/
+
+.menu {
+	position: absolute;
+	left: 0; right: 0;
+	top: 0;
+	padding: 20px;
+	color:white;
+	text-align: center;
+	font-size:2em;
+}	
+
+
+
+.btn {
+	display: block;
+  border: 5px solid #FFF;
+  background: rgba(255,255,255,0);
+  width: 20vw;
+  line-height:3rem;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background .25s;
+  color: #FFF;
+}
+.btn:hover {
+	color: #FFF;
+	background: rgba(255,255,255,0.3);
+}
+
+h1{
+    color:white;
+    text-transform:uppercase;
+	font-size:4em;
+}
+
+
+
+.introduction{
+	background-color:white;
+	padding:275px;
+	
+}
+
+.video{
+	width: 100%; 
+	text-align:center;
+	margin-bottom:50px;
+}
+
+.Surface{
+    background-image:url('img/Ocean2.jpeg');
+	
+    background-size:cover;
+    text-align: center;
+    font-size:100%;
+    padding: 275px;
+}
+
+.Deep{
+    background-image:url('img/Ocean3.jpeg');
+    background-size:cover;
+    text-align: center;
+    font-size:100%;
+    padding: 275px;
+}
+
+
+footer {
+  left: 0;
+  bottom: 0;
+  padding:1.3rem;
+  background-color: #F5F5F7;
+  color: black;
+  text-align: center;
+}
+
+
+
+
+#copyright{
+	color:#868681;
+	text-align:center; 
+	
+}
+
+
+#JWWWWWW a:link{color:#868681; text-decoration:none;} /*未访问链接*/
+#JWWWWWW a:visited{color:#868681; text-decoration:none;} /*已访问过的链接*/
+#JWWWWWW a:hover{color:#C9CBCC;text-decoration:none;}/*当用户把鼠标放在链接上时*/
+#JWWWWWW a:active{color:white; text-decoration:none;}/*链接被点击的那一刻*/
+
+#JWWWWWW {
+	text-align:right;
+	color:#868681;
+	
+	
+}
