@@ -1,8 +1,15 @@
 body {
 	margin: 0;
+     padding: 0;
+		 width:100%;
 
-
-
+}
+header {
+  background-image:url('img/Ocean3.jpeg');
+  background-size:cover;
+  text-align: center;
+  font-size:100%;
+	height:100%;
 }
 .dropbtn {
     background-color:transparent;
@@ -51,28 +58,60 @@ body {
     background-color:transparent;
 }
 
-header {
-  background-image:url('img/Ocean1.jpeg');
-  background-size:cover;
-  text-align: center;
-  font-size:100%;
-  padding: 275px;
-}
 a:link{color:white; text-decoration:none;} /*未访问链接*/
 a:visited{color:white; text-decoration:none;} /*已访问过的链接*/
 a:hover{color:#C9CBCC;text-decoration:none;}/*当用户把鼠标放在链接上时*/
 a:active{color:white; text-decoration:none;}/*链接被点击的那一刻*/
 
 .menu {
+	width:100%;
+	height:20%;
 	position: absolute;
-	left: 0; right: 0;
+	right: 0;
 	top: 0;
 	padding: 20px;
 	color:white;
-	text-align: center;
+	text-align:center;
 	font-size:2em;
 }
+.physicscontent{
+	margin:50px;
+	text-align:left;
+	font-size:0.9em;
+}
 
+.title{
+	position:relative;
+	height:20%;
+	color:white;
+	width:100%;
+	font-size:1em;
+	text-align:center;
+	padding:0px;
+
+}
+
+.a{
+	width:50%;
+	height:100%;
+	background-image: url('img/Ocean10.jpeg');
+	background-size: cover;
+	color:white;
+	font-size:1.5em;
+	float:left;
+
+
+}
+
+.b{
+	width:50%;
+	height:100%;
+	background-image: url('img/Ocean11.jpeg');
+	background-size: cover;
+	color:white;
+	font-size:1.5em;
+	float:right;
+}
 
 
 .btn {
@@ -97,6 +136,7 @@ h1{
     color:white;
     text-transform:uppercase;
 	font-size:4em;
+	margin:0;
 }
 
 
@@ -106,20 +146,31 @@ h1{
 	padding:275px;
 
 }
+.physics{
+ 	margin:0;
+}
 
 .video{
 	width: 100%;
 	text-align:center;
 	margin-bottom:50px;
 }
+.Gyre{
+	height:100%;
+}
+.Gyre_background{
+	margin:0;
+    width:100%;
+	object-fit:cover;
+}
 
-.Surface{
-    background-image:url('img/Ocean2.jpeg');
-
-    background-size:cover;
-    text-align: center;
-    font-size:100%;
-    padding: 275px;
+.subtitle{
+	color:black;
+	font-size:2em;
+	font-weight:bold;
+	position:relative;
+	right:-6em;
+	bottom:-3em;
 }
 
 .Deep{
@@ -129,7 +180,46 @@ h1{
     font-size:100%;
     padding: 275px;
 }
+.Sixsea{
+		width:100%;
+		height:100%;
+    background-image:url('img/Ocean13.jpeg');
+    background-size:cover;
+    text-align:center;
+    font-size:2.5em;
+		font-weight:bold;
+		color:white;
 
+}
+.Formation{
+		width:100%;
+		height:100%;
+    background-image:url('img/Ocean12.jpeg');
+    background-size:cover;
+    text-align:center;
+    font-size:2.5em;
+		color:white;
+		font-weight:bold;
+
+}
+#picture{
+	width:80%;
+	height:80%;
+	background-image:url('img/Ocean9.jpeg');
+	background-size:cover;
+	margin-top:30px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.Question{
+	width:100%;
+	height:100%;
+	text-align:center;
+
+	background-image:url('img/Ocean7.jpeg');
+	background-size:cover;
+}
 
 footer {
   left: 0;
@@ -140,8 +230,9 @@ footer {
   text-align: center;
 }
 
-
-
+.Picture{
+	width:80%;
+}
 
 
 #copyright{
